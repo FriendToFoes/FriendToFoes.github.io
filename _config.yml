@@ -12,8 +12,9 @@ social:
   links: 
     - https://t.me/FriendToFoes
 
-google_site_verification: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-google_analytics: UA-XXXXX-X
+webmaster_verifications:
+  google: ekOruM39Wx-tNt9v3JCeluLzUCel73nkRQR6zb7SV1g
+  yandex:
 
 url: https://friendtofoes.github.io
 baseurl: ""
