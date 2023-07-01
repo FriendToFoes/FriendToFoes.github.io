@@ -4,4 +4,6 @@ seo:
   type: Organization
 ---
 
-@hello
+<!-- ## Partners
+
+{: .partners-list} -->

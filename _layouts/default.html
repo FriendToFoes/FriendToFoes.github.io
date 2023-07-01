@@ -11,14 +11,22 @@
 </head>
 
 <body>
-  <header>
-    <div>
-      <h1>{{ site.title | default: site.github.repository_name }}</h1>
-      <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+  <div class="container">
+    <div class="logo-container">
+      <img src="{{ site.logo }}" alt="{{ site.title | default: site.github.repository_name }}" class="logo" />
     </div>
-  </header>
+    <header>
+      <h1>{{ site.title | default: site.github.repository_name }}</h1>
+      <p class="description">
+        {{ site.description | default: site.github.project_tagline }}
+      </p>
+      <a href="https://t.me/{{ site.telegram }}" class="telegram-button">View in Telegram</a>
+    </header>
 
-  {{ content }}
+    <main>
+      {{ content }}
+    </main>
+  </div>
 </body>
 
 </html>

@@ -1,0 +1,110 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #333;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 350px;
+  margin: 1rem auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #222;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #111;
+  border: 2px solid #333;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.description {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #ccc;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 25px;
+  color: #fff;
+}
+
+.partners-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.partners-list li {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.telegram-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0088cc;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bolder;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.telegram-button:hover {
+  background-color: #006699;
+}
+
+a {
+  color: #0088cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #006699;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: underline;
+}
+
+a:active {
+  transform: translateY(1px);
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    padding: 10px;
+    margin: 0.5rem;
+  }
+
+  .logo-container {
+    width: 100px;
+    height: 100px;
+  }
+}
