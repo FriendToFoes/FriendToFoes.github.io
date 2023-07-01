@@ -97,14 +97,19 @@ a:active {
   transform: translateY(1px);
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 600px) {
   .container {
     padding: 10px;
-    margin: 0.5rem;
   }
 
   .logo-container {
     width: 100px;
     height: 100px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container {
+    margin: 10px;
   }
 }
