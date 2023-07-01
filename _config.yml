@@ -1,0 +1,35 @@
+title: Свой среди чужих
+description: Политота, сложные мемасы, немного про жизу в Штатах и прочее
+author:
+  name: Свой среди чужих
+  url: https://t.me/FriendToFoes
+
+logo: /assets/logo.avif
+
+social:
+  name: Свой среди чужих
+  links: 
+    - https://t.me/FriendToFoes
+
+google_site_verification: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+google_analytics: UA-XXXXX-X
+
+url: https://friendtofoes.github.io
+baseurl: ""
+lang: ru
+
+jekyll-mentions: https://t.me
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-github-metadata
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
