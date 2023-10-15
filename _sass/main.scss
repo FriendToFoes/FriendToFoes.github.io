@@ -43,6 +43,7 @@ h1 {
   font-size: 16px;
   margin-top: 10px;
   color: #ccc;
+  white-space: pre-wrap;
 }
 
 h2 {
@@ -110,6 +111,7 @@ a:active {
 
 @media screen and (max-width: 380px) {
   .container {
+    padding: 10px;
     margin: 10px;
   }
 }
